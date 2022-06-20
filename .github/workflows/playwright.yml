@@ -34,8 +34,6 @@ jobs:
       with:
         node-version: '14'
         dotnet-version: '6.x.x'
-    - name: Build Project
-      run: dotnet build BlazorBasic
     - name: Install Playwright
       run: npx playwright install --with-deps
     - name: Run your tests
