@@ -1,24 +1,11 @@
 {
   "name": "blazor-basic",
   "version": "1.0.0",
-  "description": "[Azure Static Web Apps](https://docs.microsoft.com/azure/static-web-apps/overview) allows you to easily build [Blazor](https://angular.io/) apps in minutes. Use this repo with the [Blazor quickstart](https://docs.microsoft.com/azure/static-web-apps/getting-started?tabs=blazor) to build and customize a new static site.",
-  "main": "index.js",
   "scripts": {
     "start" : "dotnet run --project Client",
     "playwright_test" : "playwright test"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/staticwebdev/blazor-basic.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/staticwebdev/blazor-basic/issues"
-  },
-  "homepage": "https://github.com/staticwebdev/blazor-basic#readme",
-  "devDependencies": {
+ "devDependencies": {
     "@playwright/test": "^1.22.2"
   }
 }
