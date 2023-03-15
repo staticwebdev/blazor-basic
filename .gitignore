@@ -13,6 +13,3 @@ _repo.*/
 *.DS_Store
 *.lnk
 node_modules/
-/test-results/
-/playwright-report/
-/playwright/.cache/
